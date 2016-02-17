@@ -48,7 +48,7 @@ function deactivate_fs_forecast() {
 	Fs_Forecast_Deactivator::deactivate();
 }
 
-register_activation_hook( __FILE__, 'activate_fs_forecast' );
+//register_activation_hook( __FILE__, 'activate_fs_forecast' );
 register_deactivation_hook( __FILE__, 'deactivate_fs_forecast' );
 
 /**

@@ -39,6 +39,13 @@ class Fs_Forecast_Public {
 	 * @var      string    $version    The current version of this plugin.
 	 */
 	private $version;
+	
+	/**
+	 * Plugins options
+	 * 
+	 * @var array
+	 */
+	private $fs_options = array();
 
 	/**
 	 * Initialize the class and set its properties.
@@ -51,7 +58,16 @@ class Fs_Forecast_Public {
 
 		$this->plugin_name = $plugin_name;
 		$this->version = $version;
-
+        $this->fs_option = get_option($this->plugin_name);
+	}
+	
+	/**
+	 * Register forecast widget
+	 * 
+	 * @return void
+	 */
+	public function add_plugin_widget() {
+	    register_widget('Fs_Forecast_Widget');
 	}
 
 	/**

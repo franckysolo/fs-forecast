@@ -30,7 +30,9 @@ class Fs_Forecast_Deactivator {
 	 * @since    1.0.0
 	 */
 	public static function deactivate() {
-
+	    
+        $option_name = 'fs-forecast';           
+        delete_option( $option_name );	    
 	}
 
 }
