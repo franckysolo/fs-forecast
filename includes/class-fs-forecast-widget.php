@@ -22,36 +22,40 @@
 class Fs_Forecast_Widget extends WP_Widget
 {
     /**
+     * The weather api service
      * 
      * @var Fs_Forecast_Weather_Api
      */
     protected $api;
     
     /**
+     * The api reporter
      * 
      * @var Fs_Forecast_Weather_Report
      */
     protected $report;
     
     /**
+     * The plugin name
      * 
      * @var string
      */
     protected $plugin_name = 'fs-forecast';
 
     /**
+     * The url options
      * 
      * @var array
      */
     protected $options = array (
-        'link' => 'xoap',
-        'prod' => 'xoap',
+        'link' => 'xoap', // could be ignored
+        'prod' => 'xoap', // could be ignored
         'cc' => '*',
-        'dayf' => 5
+        'dayf' => 5       // 5 days forecast
     );
 
     /**
-     * 
+     * Built a weather forecast widget
      */
     public function __construct() {
         
@@ -73,9 +77,11 @@ class Fs_Forecast_Widget extends WP_Widget
     }
 
     /**
+     * Diplay widget section area in sidebar
      * 
      * @param array $args
      * @param array $instance
+     * @return void
      */
     public function widget($args, $instance) {
         $title = apply_filters( 'widget_title', empty( $instance['title'] ) ? __( 'Plugin météo' ) : $instance['title'], $instance, 'fs-forecast');
@@ -87,20 +93,22 @@ class Fs_Forecast_Widget extends WP_Widget
             exit($data['err']);
         }
 
-        $this->display_widget_setup_page($title);
+        $this->display_widget_section($title);
     }
     
     /**
+     * Diplay widget plugin area
      * 
      * @param string $title
      * @param Fs_Forecast_Weather_Report $report
      */
-    public function display_widget_setup_page($title) {
+    public function display_widget_section($title) {
         require_once plugin_dir_path( __DIR__ ) . 'public/partials/fs-forecast-public-display.php';
     }
     
 
     /**
+     * Display an empty icon in view plugin 
      * 
      * @param string $title
      * @param string $baseUrl
@@ -115,6 +123,7 @@ HTML;
     }
     
    /**
+    * Display temperature in plugin view
     * 
     * @param string $day
     * @return string
@@ -137,8 +146,11 @@ HTML;
     }
 
     /**
+     * Display form in widget option area
      * 
      * @param mixed $instance
+     * 
+     * @return void
      */
     public function form($instance) {
         ?>
