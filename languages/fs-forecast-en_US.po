@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Forecast Weather 1.0\n"
+"POT-Creation-Date: 2016-02-17 01:30+0100\n"
+"PO-Revision-Date: 2016-02-17 01:36+0100\n"
+"Last-Translator: franckysolo <franckysolo@gmail.com>\n"
+"Language-Team: franckysolo <franckysolo@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;__;_e;_x;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../public/partials/fs-forecast-public-display.php:31
+msgid "%d %B %Y"
+msgstr "%B %d %Y"
+
+#: ../public/partials/fs-forecast-public-display.php:36
+msgid "Sunrise"
+msgstr "Sunrise"
+
+#: ../public/partials/fs-forecast-public-display.php:40
+msgid "Sunset"
+msgstr "Sunset"
+
+#: ../includes/class-fs-forecast-widget.php:58
+msgid "Forecats Weather Plugin"
+msgstr "Forecats Weather Plugin"
+
+#: ../includes/class-fs-forecast-widget.php:81
+msgid "Plugin météo"
+msgstr "Plugin météo"
+
+#: ../includes/class-fs-forecast-widget.php:145
+msgid "Options à paramétrer dans la back-office"
+msgstr "Options à paramétrer dans la back-office"
+
+#: ../admin/class-fs-forecast-admin.php:58
+msgid "Monday"
+msgstr "%d %B %Y"
+
+#: ../admin/class-fs-forecast-admin.php:59
+msgid "Tuesday"
+msgstr "Tuesday"
+
+#: ../admin/class-fs-forecast-admin.php:60
+msgid "Wednesday"
+msgstr "Wednesday"
+
+#: ../admin/class-fs-forecast-admin.php:61
+msgid "Thursday"
+msgstr "Thursday"
+
+#: ../admin/class-fs-forecast-admin.php:62
+msgid "Friday"
+msgstr "Friday"
+
+#: ../admin/class-fs-forecast-admin.php:63
+msgid "Saturday"
+msgstr "Saturday"
+
+#: ../admin/class-fs-forecast-admin.php:64
+msgid "Sunday"
+msgstr "Sunday"
+
+#: ../admin/class-fs-forecast-admin.php:75
+msgid "Forecast Weather Plugin - Configuration"
+msgstr "Forecast Weather Plugin - Configuration"
+
+#: ../admin/class-fs-forecast-admin.php:76
+msgid "Forecast Weather 1.0"
+msgstr "Forecast Weather 1.0"
+
+#: ../admin/class-fs-forecast-admin.php:109
+msgid "Please enter a valid station code"
+msgstr "Please enter a valid station code"
+
+#: ../admin/class-fs-forecast-admin.php:119
+msgid "Please enter a valid ID"
+msgstr "Please enter a valid ID"
+
+#: ../admin/class-fs-forecast-admin.php:129
+msgid "Please enter a valid Key"
+msgstr "Please enter a valid Key"
+
+#: ../admin/partials/fs-forecast-admin-display.php:20
+msgid "The plugin use the"
+msgstr "The plugin use the"
+
+#: ../admin/partials/fs-forecast-admin-display.php:22
+msgid "service"
+msgstr "service"
+
+#: ../admin/partials/fs-forecast-admin-display.php:23
+msgid "please take a look for retrieve the codes of your favorites stations"
+msgstr "please take a look for retrieve the codes of your favorites stations"
+
+#: ../admin/partials/fs-forecast-admin-display.php:30
+msgid "Using the service"
+msgstr "Using the service"
+
+#: ../admin/partials/fs-forecast-admin-display.php:33
+msgid "ID of weather station"
+msgstr "ID of weather station"
+
+#: ../admin/partials/fs-forecast-admin-display.php:37
+msgid "Enter the weather station you want to display"
+msgstr "Enter the weather station you want to display"
+
+#: ../admin/partials/fs-forecast-admin-display.php:40
+msgid "Your weaher.com ID (Optional)"
+msgstr "Your weaher.com ID (Optional)"
+
+#: ../admin/partials/fs-forecast-admin-display.php:44
+msgid "Enter your weaher.com ID"
+msgstr "Enter your weaher.com ID"
+
+#: ../admin/partials/fs-forecast-admin-display.php:47
+msgid "Your weaher.com private Key (Optional)"
+msgstr "Your weaher.com private Key (Optional)"
+
+#: ../admin/partials/fs-forecast-admin-display.php:51
+msgid "Enter your weaher.com private Key"
+msgstr "Enter your weaher.com private Key"
+
+#~ msgid "Connexion au service météo weather.com"
+#~ msgstr "Connexion au service météo weather.com"
