@@ -37,11 +37,11 @@ class Fs_Forecast_Weather_Api
     /**
      * The forecast station 
      * 
-     * Default set near my house :), to fr_FR - Bordeaux
-     * 
+     * Default set near my house :), to fr_FR - Bordeaux (FRXX0016)
+     * @example Morroco : MOSM0341
      * @var string
      */
-    protected $station = 'MOSM0341';
+    protected $station = 'FRXX0016';
     
     /**
      * 
@@ -54,7 +54,8 @@ class Fs_Forecast_Weather_Api
     }
     
     /**
-     *
+     * Returns the code station
+     * 
      * @return string
      */
     public function getStation() {
