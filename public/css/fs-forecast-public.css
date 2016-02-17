@@ -1,4 +1,20 @@
-/**
- * All of the CSS for your public-facing functionality should be
- * included in this file.
- */
+
+.text-center, .table-forecast th {
+	text-align: center;
+}
+
+.widget .forecast h3  {
+	margin-bottom: 5px;
+}
+
+.wc-icon {
+	background: url('../images/w-channel.png') no-repeat 0 0 scroll;
+	width: 25px;
+	height: 20px;
+	float: right;
+	display: block;
+	clear:right;
+}
+.wc-icon span {
+	display: none;
+}
