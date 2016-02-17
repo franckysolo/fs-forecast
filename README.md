@@ -4,7 +4,7 @@ Wordpress plugins - Display forecast weather in blog using The Weather Channel s
 
 ## fs-forecast
 Contributors: franckysolo  
-Donate link: http://www.franckysolo-productions.com/  
+Author website : http://www.franckysolo-productions.com/  
 Tags: weather,forecast,sidebar,plugin  
 Requires at least: 4.4  
 Tested up to: 4.4  
