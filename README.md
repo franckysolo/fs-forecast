@@ -5,10 +5,10 @@ Wordpress plugins - Display forecast weather in blog using The Weather Channel s
 ## fs-forecast
 Contributors: franckysolo  
 Author website : http://www.franckysolo-productions.com/  
-Tags: weather,forecast,sidebar,plugin  
-Requires at least: 4.4  
-Tested up to: 4.4  
-Stable tag: 4.4  
+Tags: weather,forecast,sidebar,plugin,wordpress  
+Requires at least: wordpress 4.4  
+Tested up to: wordpress 4.4  
+Stable tag: wordpress 4.4  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -22,7 +22,7 @@ The plugin has been translated in two languages versions : en_US & fr_FR
 
 ## Installation
 
-1. Download zip from github `http://github.com/franckysolo/fs-forecast`
+1. Download zip from github `https://github.com/franckysolo/fs-forecast`
 1. Extract the zip to the `/wp-content/plugins/` directory  
 1. Activate the plugin through the 'Plugins' menu in WordPress  
 1. Place the plugin widget in the sidebar  
@@ -53,3 +53,6 @@ The plugin as a simple widget! May be improved in future version.
 
 ## Upgrade Notice
 No information for now...
+
+## Contribute
+Send me an email
